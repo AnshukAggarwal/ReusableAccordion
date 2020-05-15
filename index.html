@@ -7,6 +7,53 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div id="acc1" class="aaAccordion">
+        <div class="aaCard">
+            <div class="aaCardHeader cardHeader" data-target="content1">
+               This is the heading 1 of the card.
+            </div>
     
+            <div class="aaContent aaCollapse" id="content1">
+                This is the content of the first card.
+            </div>
+        </div>
+
+        <div class="aaCard">
+            <div class="aaCardHeader cardHeader" data-target="content2">
+                This is the heading 2 of the card.
+            </div>
+    
+            <div class="aaContent aaCollapse" id="content2">
+                This is the content of the Second card.
+            </div>
+        </div>
+
+    </div>
+
+    <div id="accDynamic" class="aaAccordion" style="margin-top: 25px;">
+        <div class="aaCard">
+            <div class="aaCardHeader cardHeader" data-target="content1">
+               This is the heading 1 of the card.
+            </div>
+    
+            <div class="aaContent aaCollapse" id="content1">
+                This is the content of the first card.
+            </div>
+        </div>
+
+        <div class="aaCard">
+            <div class="aaCardHeader cardHeader" data-target="content2">
+                This is the heading 2 of the card.
+            </div>
+    
+            <div class="aaContent aaCollapse" id="content2">
+                This is the content of the Second card.
+            </div>
+        </div>
+
+    </div>
+
+    <button onClick="addAccordion()" class="aaAccordionBtn">Add Accordion</button>
+       
 </body>
 </html>
