@@ -1,12 +1,3 @@
-/**
- * IIFE
- * 1) function to iterate through all the accordions in the HTML on script load
- * 2) function that will create or initialize one accordion. This function may or may not use other helper functions.
- *    Also this function will be exposed as an API to create a dynamic Accordion.
- * 3) Scope of Dynamic Accordion: There will be some HTML added to the page. The id of the HTML will be passed to one of our functions that will 
- *    inturn create the accordion. Same thing goes for the item.
- */
-
 (function () {
     // gets all the accordions on the page
     function getAccordions() {
